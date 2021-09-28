@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon ./src/server.js  ",
+    "start:m": " nodemon ./src/app-multiple-device.js  "
+  },
+  "author": "wamba",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.12",
+    "axios": "^0.20.0",
+    "express-fileupload": "^1.2.0",
+    "express-validator": "^6.9.2",
+    "mime-types": "^2.1.32",
+    "qrcode": "^1.4.4",
+    "socket.io": "2.3.0",
+    "whatsapp-web.js": "latest"
+  }
+}
